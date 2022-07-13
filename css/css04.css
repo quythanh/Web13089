@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+h2 {
+    text-align: center;
+    margin: 1px;
+}
+
+table {
+    border: 1px solid;
+    margin: auto;
+}
+
+thead {
+    background-color: #999;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+th {
+    padding: 4px;
+}
+
+td {
+    padding: 2px;
+}

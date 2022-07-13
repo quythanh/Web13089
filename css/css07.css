@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 5px;
+}
+
+.banner {
+    background-image: url('../images/backgrd.png');
+    height: 120px;
+    color: #ff0;
+    text-align: center;
+    line-height: 120px;
+    text-transform: uppercase;
+    text-shadow: #b60c1f 4px 4px 2px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.nav {
+    background-color: #03c9a9;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav__item {
+    position: relative;
+    display: inline-block;
+    background-color: #049372;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 28px;
+    min-width: 140px;
+    border: 1px dotted #000;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    background-color: #03a678;
+}
+
+.subnav {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #049372;
+    top: 27px;
+    left: -1px;
+    min-width: 160px;
+}
+
+.nav__item:hover .subnav {
+    display: unset;
+}
+
+.subnav__item {
+    padding: 7px 10px;
+    border: 1px dotted #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-left, .sidebar-right {
+    width: 250px;
+    background-color: #c5eff7;
+}
+
+.sidebar-left {
+    width: 200px;
+}
+
+dt {
+    margin: 14px 0;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+dd {
+    padding: 0 15px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    border: #000 dotted 1px;
+}
+
+.content__section {
+    flex: 40%;
+    width: 100%;
+    overflow: scroll;
+    border: #000 dotted 1px;
+    display: flex;
+    margin: 10px;
+}
+
+.boxes-ads {
+    padding: 20px 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 250px;
+    height: 100%;
+    align-items: center;
+}
+
+.box-ads {
+    width: 210px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff9de;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: #333 5px 5px 2px;
+}
+
+footer {
+    background-color: blue;
+    text-align: center;
+    color: #ff0;
+    padding: 10px;
+}
