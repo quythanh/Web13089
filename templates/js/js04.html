@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/js04.css">
+</head>
+<body>
+    <form>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">CÁC PHÉP TÍNH SỐ HỌC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Số thứ nhất</td>
+                    <td><input type="number" step="any" name="num1" id="num1" required></td>
+                </tr>
+                <tr>
+                    <td>Số thứ hai</td>
+                    <td><input type="number" step="any" name="num2" id="num2" required></td>
+                </tr>
+                <tr>
+                    <td>Chọn phép toán</td>
+                    <td>
+                        <input type="radio" name="expr" id="expr1" value="+" required>
+                        <label for="expr1">Cộng</label>
+                        <br>
+                        <input type="radio" name="expr" id="expr2" value="-">
+                        <label for="expr2">Trừ</label>
+                        <br>
+                        <input type="radio" name="expr" id="expr3" value="*">
+                        <label for="expr3">Nhân</label>
+                        <br>
+                        <input type="radio" name="expr" id="expr4" value="/">
+                        <label for="expr4">Chia</label>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><button type="submit">Thực hiện</button></td>
+                    <td><input type="num" name="result" id="result" disabled></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+
+    <script src="../../js/js04.js"></script>
+</body>
+</html>
