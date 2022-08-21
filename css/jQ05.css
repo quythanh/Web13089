@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+div {
+    width: 225px;
+    height: 225px;
+    background-image: url(../images/ga.jpg);
+}
+
+div.scale {
+    transform: scale(2);
+    background-image: url(../images/dog.jpg);
+}

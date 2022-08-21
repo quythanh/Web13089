@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../css/jQ09.css">
+</head>
+<body>
+    <div class="container">
+        <div class="control">
+            <form>
+                <fieldset>
+                    <legend>Chọn</legend>
+                    <div>
+                        <input type="radio" name="shadow" id="shadow1" value="0" checked>
+                        <label for="shadow1">Chữ bình thường</label>
+                        <br>
+                        <input type="radio" name="shadow" id="shadow2" value="1">
+                        <label for="shadow2">Chữ có bóng</label>
+                    </div>
+                    <div>
+                        <label for="color">Chọn màu chữ:</label>
+                        <input type="color" name="color" id="color">
+                    </div>
+                    <div>
+                        <button type="button" onclick="DeleteLast();">Xoá phần tử cuối</button>
+                        <button type="button" onclick="Restore();">Phục hồi</button>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Click vào một chuỗi</legend>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JQUERY</li>
+                        <li>JAVASCRIPT</li>
+                    </ol>
+                </fieldset>
+            </form>
+        </div>
+        <div id="res">HTML</div>
+    </div>
+
+    <script src="https://quythanh.tk/assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../../js/jQ09.js"></script>
+</body>
+</html>

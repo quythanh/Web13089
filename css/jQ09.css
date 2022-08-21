@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    padding: 20px;
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.container > div {
+    flex: 1;
+    background-color: #faebd7;
+}
+
+fieldset {
+    padding: 20px;
+    border-color: #5d57ef;
+}
+
+fieldset > div + div {
+    margin-top: 15px;
+}
+
+ol {
+    padding: 10px;
+}
+
+li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+li:nth-child(odd) {
+    background-color: #969;
+}
+li:nth-child(even) {
+    background-color: #9ff;
+}
+
+#res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
